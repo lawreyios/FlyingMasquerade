@@ -16,13 +16,13 @@ let ans4 = "ans4"
 
 extension FMViewController {
     func round4() {
-        let mask1 = addMaskView(startingPoint: .Left, y: 10, mask: 4)
+        let mask1 = addMaskView(startingPoint: .Left, y: 10, mask: 1)
         addTransformTo(mask: mask1, startingPoint: .Left, duration: 3, delay: 1)
         
         let mask2 = addMaskView(startingPoint: .Right, y: 100, mask: 4)
         addTransformTo(mask: mask2, startingPoint: .Right, duration: 5, delay: 2)
         
-        let mask3 = addMaskView(startingPoint: .Left, y: 150, mask: 2)
+        let mask3 = addMaskView(startingPoint: .Left, y: 150, mask: 4)
         addTransformTo(mask: mask3, startingPoint: .Left, duration: 3, delay: 1)
         
         let mask4 = addMaskView(startingPoint: .Right, y: 200, mask: 4)
@@ -49,7 +49,7 @@ extension FMViewController {
         let mask11 = addMaskView(startingPoint: .Left, y: 550, mask: 4)
         addTransformTo(mask: mask11, startingPoint: .Left, duration: 2, delay: 2)
         
-        let mask12 = addMaskView(startingPoint: .Right, y: 600, mask: 4)
+        let mask12 = addMaskView(startingPoint: .Right, y: 600, mask: 3)
         addTransformTo(mask: mask12, startingPoint: .Right, duration: 6, delay: 1)
         
         let mask13 = addMaskView(startingPoint: .Right, y: 650, mask: 1)
@@ -58,10 +58,10 @@ extension FMViewController {
         let mask14 = addMaskView(startingPoint: .Left, y: 625, mask: 2)
         addTransformTo(mask: mask14, startingPoint: .Left, duration: 3, delay: 1)
         
-        let mask15 = addMaskView(startingPoint: .Right, y: 575, mask: 4)
+        let mask15 = addMaskView(startingPoint: .Right, y: 575, mask: 1)
         addTransformTo(mask: mask15, startingPoint: .Right, duration: 2, delay: 2)
         
-        let mask16 = addMaskView(startingPoint: .Left, y: 525, mask: 1)
+        let mask16 = addMaskView(startingPoint: .Left, y: 525, mask: 4)
         addTransformTo(mask: mask16, startingPoint: .Left, duration: 3, delay: 2)
         
         let mask17 = addMaskView(startingPoint: .Right, y: 475, mask: 2)
@@ -75,6 +75,18 @@ extension FMViewController {
         
         let mask20 = addMaskView(startingPoint: .Right, y: 325, mask: 3)
         addTransformTo(mask: mask20, startingPoint: .Right, duration: 6, delay: 2)
+        
+        let mask21 = addMaskView(startingPoint: .Right, y: 475, mask: 2)
+        addTransformTo(mask: mask21, startingPoint: .Right, duration: 2, delay: 1)
+        
+        let mask22 = addMaskView(startingPoint: .Left, y: 425, mask: 3)
+        addTransformTo(mask: mask22, startingPoint: .Left, duration: 4, delay: 2)
+        
+        let mask23 = addMaskView(startingPoint: .Right, y: 175, mask: 4)
+        addTransformTo(mask: mask23, startingPoint: .Right, duration: 6, delay: 1)
+        
+        let mask24 = addMaskView(startingPoint: .Right, y: 225, mask: 3)
+        addTransformTo(mask: mask24, startingPoint: .Right, duration: 4, delay: 2)
         
         fadeInAnswer4(delay: 14)
     }

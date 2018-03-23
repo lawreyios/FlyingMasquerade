@@ -33,7 +33,7 @@ class FMViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        fadeInQuestion2()
+        fadeInQuestion1()
     }
     
     func addMaskView(startingPoint: StartingPoint, y: CGFloat, mask: Int) -> MaskView {

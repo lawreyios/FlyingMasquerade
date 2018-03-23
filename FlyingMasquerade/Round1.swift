@@ -19,22 +19,19 @@ extension FMViewController {
         let mask1 = addMaskView(startingPoint: .Left, y: 50, mask: 1)
         addTransformTo(mask: mask1, startingPoint: .Left, duration: 5, delay: 1)
         
-        let mask2 = addMaskView(startingPoint: .Right, y: 70, mask: 2)
-        addTransformTo(mask: mask2, startingPoint: .Right, duration: 5, delay: 1)
+        let mask2 = addMaskView(startingPoint: .Right, y: 140, mask: 2)
+        addTransformTo(mask: mask2, startingPoint: .Right, duration: 6, delay: 1)
         
-        let mask3 = addMaskView(startingPoint: .Left, y: 140, mask: 1)
-        addTransformTo(mask: mask3, startingPoint: .Left, duration: 3, delay: 1)
+        let mask3 = addMaskView(startingPoint: .Left, y: 280, mask: 1)
+        addTransformTo(mask: mask3, startingPoint: .Left, duration: 5, delay: 1)
         
-        let mask4 = addMaskView(startingPoint: .Right, y: 340, mask: 2)
-        addTransformTo(mask: mask4, startingPoint: .Right, duration: 2, delay: 1)
+        let mask4 = addMaskView(startingPoint: .Right, y: 290, mask: 3)
+        addTransformTo(mask: mask4, startingPoint: .Right, duration: 4, delay: 1)
         
-        let mask5 = addMaskView(startingPoint: .Left, y: 400, mask: 2)
-        addTransformTo(mask: mask5, startingPoint: .Left, duration: 4, delay: 1)
+        let mask5 = addMaskView(startingPoint: .Left, y: 450, mask: 4)
+        addTransformTo(mask: mask5, startingPoint: .Left, duration: 6, delay: 1)
         
-        let mask6 = addMaskView(startingPoint: .Right, y: 600, mask: 2)
-        addTransformTo(mask: mask6, startingPoint: .Right, duration: 3, delay: 1)
-        
-        fadeInAnswer1(delay: 7)
+        fadeInAnswer1(delay: 6)
     }
     
     func fadeInQuestion1() {

@@ -16,11 +16,11 @@ let ans6 = "ans6"
 
 extension FMViewController {
     func round6() {
-        let mask1 = addMaskView(startingPoint: .Left, y: 30, mask: 1)
+        let mask1 = addMaskView(startingPoint: .Left, y: 30, mask: 2)
         addTransformTo(mask: mask1, startingPoint: .Left, duration: 3, delay: 1)
         
-        let mask2 = addMaskView(startingPoint: .Left, y: 60, mask: 1)
-        addTransformTo(mask: mask2, startingPoint: .Left, duration: 4, delay: 1)
+        let mask2 = addMaskView(startingPoint: .Left, y: 60, mask: 2)
+        addTransformTo(mask: mask2, startingPoint: .Left, duration: 2, delay: 1)
         
         let mask3 = addMaskView(startingPoint: .Left, y: 90, mask: 2)
         addTransformTo(mask: mask3, startingPoint: .Left, duration: 3, delay: 1)
@@ -29,37 +29,37 @@ extension FMViewController {
         addTransformTo(mask: mask4, startingPoint: .Right, duration: 1, delay: 2)
         
         let mask5 = addMaskView(startingPoint: .Left, y: 150, mask: 4)
-        addTransformTo(mask: mask5, startingPoint: .Left, duration: 7, delay: 2)
+        addTransformTo(mask: mask5, startingPoint: .Left, duration: 3, delay: 2)
         
         let mask6 = addMaskView(startingPoint: .Right, y: 180, mask: 2)
         addTransformTo(mask: mask6, startingPoint: .Right, duration: 3, delay: 2)
         
         let mask7 = addMaskView(startingPoint: .Left, y: 210, mask: 3)
-        addTransformTo(mask: mask7, startingPoint: .Left, duration: 5, delay: 2)
+        addTransformTo(mask: mask7, startingPoint: .Left, duration: 2, delay: 2)
         
-        let mask8 = addMaskView(startingPoint: .Right, y: 240, mask: 3)
+        let mask8 = addMaskView(startingPoint: .Right, y: 240, mask: 2)
         addTransformTo(mask: mask8, startingPoint: .Right, duration: 4, delay: 1)
         
         let mask9 = addMaskView(startingPoint: .Left, y: 270, mask: 4)
-        addTransformTo(mask: mask9, startingPoint: .Left, duration: 5, delay: 2)
+        addTransformTo(mask: mask9, startingPoint: .Left, duration: 1, delay: 2)
         
-        let mask10 = addMaskView(startingPoint: .Right, y: 300, mask: 3)
+        let mask10 = addMaskView(startingPoint: .Right, y: 300, mask: 2)
         addTransformTo(mask: mask10, startingPoint: .Right, duration: 3, delay: 1)
         
         let mask11 = addMaskView(startingPoint: .Left, y: 330, mask: 2)
-        addTransformTo(mask: mask11, startingPoint: .Left, duration: 3, delay: 2)
+        addTransformTo(mask: mask11, startingPoint: .Left, duration: 2, delay: 2)
         
-        let mask12 = addMaskView(startingPoint: .Right, y: 360, mask: 1)
-        addTransformTo(mask: mask12, startingPoint: .Right, duration: 4, delay: 1)
+        let mask12 = addMaskView(startingPoint: .Right, y: 360, mask: 2)
+        addTransformTo(mask: mask12, startingPoint: .Right, duration: 2, delay: 1)
         
-        let mask13 = addMaskView(startingPoint: .Right, y: 390, mask: 3)
-        addTransformTo(mask: mask13, startingPoint: .Right, duration: 6, delay: 2)
+        let mask13 = addMaskView(startingPoint: .Right, y: 390, mask: 2)
+        addTransformTo(mask: mask13, startingPoint: .Right, duration: 3, delay: 2)
         
         let mask14 = addMaskView(startingPoint: .Left, y: 420, mask: 1)
         addTransformTo(mask: mask14, startingPoint: .Left, duration: 3, delay: 1)
         
         let mask15 = addMaskView(startingPoint: .Right, y: 450, mask: 3)
-        addTransformTo(mask: mask15, startingPoint: .Right, duration: 7, delay: 2)
+        addTransformTo(mask: mask15, startingPoint: .Right, duration: 2, delay: 2)
         
         let mask16 = addMaskView(startingPoint: .Left, y: 480, mask: 4)
         addTransformTo(mask: mask16, startingPoint: .Left, duration: 5, delay: 2)
@@ -67,14 +67,14 @@ extension FMViewController {
         let mask17 = addMaskView(startingPoint: .Right, y: 510, mask: 2)
         addTransformTo(mask: mask17, startingPoint: .Right, duration: 2, delay: 1)
         
-        let mask18 = addMaskView(startingPoint: .Left, y: 540, mask: 1)
+        let mask18 = addMaskView(startingPoint: .Left, y: 540, mask: 2)
         addTransformTo(mask: mask18, startingPoint: .Left, duration: 3, delay: 2)
         
         let mask19 = addMaskView(startingPoint: .Right, y: 570, mask: 3)
         addTransformTo(mask: mask19, startingPoint: .Right, duration: 4, delay: 1)
         
-        let mask20 = addMaskView(startingPoint: .Right, y: 600, mask: 1)
-        addTransformTo(mask: mask20, startingPoint: .Right, duration: 7, delay: 2)
+        let mask20 = addMaskView(startingPoint: .Right, y: 600, mask: 2)
+        addTransformTo(mask: mask20, startingPoint: .Right, duration: 4, delay: 2)
         
         fadeInAnswer6(delay: 14)
     }
